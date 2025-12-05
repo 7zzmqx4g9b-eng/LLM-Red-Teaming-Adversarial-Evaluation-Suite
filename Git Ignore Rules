@@ -1,0 +1,34 @@
+# --- Python Internals ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- Environment Variables & Keys (CRITICAL) ---
+# Never commit these files as they contain API keys
+.env
+.env.local
+
+# --- Output Data & Logs ---
+# Do not commit test results containing sensitive model outputs
+*.csv
+*.log
+
+# --- JSON Lines Data ---
+# Ignores generated output logs. 
+# NOTE: If you need to track source corpus files (like attack_corpus.jsonl), 
+# you can force add them using 'git add -f filename' or uncomment the exception below:
+*.jsonl
+# !attack_corpus.jsonl
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
