@@ -10,12 +10,12 @@ This repository contains a comprehensive corpus of Large Language Model (LLM) at
 
 | File Name | Description |
 | :--- | :--- |
-| **`attack_corpus.jsonl`** | A JSON Lines dataset containing over **60 distinct attack vectors** (English), including persona modulation, logic locks, and obfuscation techniques. |
-| **`attack_corpus_thai.json`** | A JSON dataset containing **75 attack vectors adapted for Thai language context**, addressing cultural nuances and multilingual tokenization vulnerabilities. |
-| **`red_team_runner.py`** | The main evaluation script for executing English attack vectors against target LLMs. |
-| **`red_team_runner_thai.py`** | A specialized evaluation script handling Thai language nuances, encoding issues, and specific API behavior for non-Latin scripts. |
-| **`indirect_red_team.py`** | A simulation script for **Indirect Prompt Injection** attacks (e.g., via poisoned emails, documents, or RAG contexts). |
-| **`defense_runner.py`** | An implementation of the **"Sandwich Defense"** pattern to demonstrate mitigation strategies against the included attacks. |
+| **`01_attack_corpus_en.json`** | A JSON Lines dataset containing over **60 distinct attack vectors** (English), including persona modulation, logic locks, and obfuscation techniques. |
+| **`02_attack_corpus_th.json`** | A JSON dataset containing **75 attack vectors adapted for Thai language context**, addressing cultural nuances and multilingual tokenization vulnerabilities. |
+| **`03_red_team_runner.py`** | The main evaluation script for executing English attack vectors against target LLMs. |
+| **`04_red_team_runner_thai.py`** | A specialized evaluation script handling Thai language nuances, encoding issues, and specific API behavior for non-Latin scripts. |
+| **`05_indirect_red_team.py`** | A simulation script for **Indirect Prompt Injection** attacks (e.g., via poisoned emails, documents, or RAG contexts). |
+| **`06_defense_runner.py`** | An implementation of the **"Sandwich Defense"** pattern to demonstrate mitigation strategies against the included attacks. |
 
 ## 🚀 Getting Started
 
