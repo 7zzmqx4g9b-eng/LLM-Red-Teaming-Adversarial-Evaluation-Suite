@@ -1,6 +1,4 @@
-Here is a formatted `README.md` ready for your GitHub repository. I have organized it with clear headers, code blocks, and tables to ensure it looks professional and is easy to navigate.
 
------
 
 # 🛡️ LLM Red Teaming & Adversarial Evaluation Suite
 
