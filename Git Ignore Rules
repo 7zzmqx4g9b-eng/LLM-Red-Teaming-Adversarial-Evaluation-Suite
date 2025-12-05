@@ -20,9 +20,9 @@ env/
 
 # --- JSON Lines Data ---
 # Ignores generated output logs. 
-# NOTE: If you need to track source corpus files (like attack_corpus.jsonl), 
+# NOTE: If you need to track source corpus files (like attack_corpus.json), 
 # you can force add them using 'git add -f filename' or uncomment the exception below:
-*.jsonl
+*.json
 # !attack_corpus.jsonl
 
 # --- IDE Settings ---
